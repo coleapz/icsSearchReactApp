@@ -1,0 +1,42 @@
+form {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.7; 
+    text-align: left;
+}
+input::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;  
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    background: grey;
+}
+.form-div{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+}

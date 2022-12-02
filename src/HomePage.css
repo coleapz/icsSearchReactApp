@@ -1,0 +1,23 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .vertical-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uci-header {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 50px;
+    color:#0064a4;
+                                                
+  }
+
+  .search-div {
+    width: 584px;
+    height: 44px;
+  }

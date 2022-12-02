@@ -1,0 +1,39 @@
+.Blocks {
+    margin: 25px;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+}
+
+.Blocks:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.Blocks:hover a {
+    color:#ffd200 !important;
+}
+.Blocks a {
+    display: inline-block;
+    padding: 12px 16px;
+    color:#0064a4;
+    font-weight: 700;
+    text-decoration: none;
+}
+.search-bar-wrapper {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #ebebeb
+}
+
+.image-div {
+    padding-right: 27px;
+}
+.image-div img:hover {
+    cursor: pointer;
+}
+.searchbar-div {
+    width: 500px;
+    height: 50px;
+}
